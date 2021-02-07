@@ -1,0 +1,451 @@
+<root>
+  <World>
+	<!-- Los alumnos deben poner el número entero de su número de matrícula a continuación -->
+    <WorldInfo name="Guiado y Navegacion. MUAR. UPM 2018">
+		<RegisterNumber number="16234"/>
+		<RegisterNumber number="16331"/>
+		<RegisterNumber number="20270"/>
+	</WorldInfo>
+	<!-- definición de una habitación como un conjunto de paredes -->
+<FaceSetPart name="Sala Cuadrada 8x8">
+	<face>
+		<vertex>
+			{7.000000 , -7.000000, 0}
+			{7.000000 , 8.000000, 0}
+			{-8.000000 , 8.000000, 0}
+			{-8.000000 , -7.000000, 0}
+		</vertex>
+		<colour r="0.2" g="0.2" b="1"/>
+	</face>
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{15.000000 , 2.000000, 0}
+			{15.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 1.570796}</orientation>
+		<position>{7.000000 , -7.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{15.000000 , 2.000000, 0}
+			{15.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 3.141593}</orientation>
+		<position>{7.000000 , 8.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{15.000000 , 2.000000, 0}
+			{15.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, -1.570796}</orientation>
+		<position>{-8.000000 , 8.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{15.000000 , 2.000000, 0}
+			{15.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 0.000000}</orientation>
+		<position>{-8.000000 , -7.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+
+	<!-- definición paredes -->
+	<!-- pared 1 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{11.000000 , 2.000000, 0}
+			{11.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 1.570796}</orientation>
+		<position>{-6.000000 , -5.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 2 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{11.000000 , 2.000000, 0}
+			{11.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 0.000000}</orientation>
+		<position>{-6.000000 , 6.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 3 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{6.000000 , 2.000000, 0}
+			{6.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 1.570796}</orientation>
+		<position>{-1.000000 , 0.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 4 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{4.000000 , 2.000000, 0}
+			{4.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 0.000000}</orientation>
+		<position>{-5.000000 , 0.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 5 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{4.000000 , 2.000000, 0}
+			{4.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 1.570796}</orientation>
+		<position>{-5.000000 , 0.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 6 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{3.000000 , 2.000000, 0}
+			{3.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 0.000000}</orientation>
+		<position>{-5.000000 , 4.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 7 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{6.000000 , 2.000000, 0}
+			{6.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 1.570796}</orientation>
+		<position>{1.000000 , 0.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 8 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{4.000000 , 2.000000, 0}
+			{4.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 0.000000}</orientation>
+		<position>{1.000000 , 0.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 9 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{4.000000 , 2.000000, 0}
+			{4.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 1.570796}</orientation>
+		<position>{5.000000 , 0.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 10 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{3.000000 , 2.000000, 0}
+			{3.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 0.000000}</orientation>
+		<position>{2.000000 , 4.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 11 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{3.000000 , 2.000000, 0}
+			{3.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 0.000000}</orientation>
+		<position>{-6.000000 , -5.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 12 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{6.000000 , 2.000000, 0}
+			{6.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 0.000000}</orientation>
+		<position>{-1.000000 , -5.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 13 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{3.000000 , 2.000000, 0}
+			{3.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 1.570796}</orientation>
+		<position>{5.000000 , -5.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 14 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{2.000000 , 2.000000, 0}
+			{2.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 0.000000}</orientation>
+		<position>{5.000000 , -2.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 15 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{1.000000 , 2.000000, 0}
+			{1.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 1.570796}</orientation>
+		<position>{-3.000000 , -3.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 16 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{1.000000 , 2.000000, 0}
+			{1.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 1.570796}</orientation>
+		<position>{3.000000 , -3.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 17 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{6.000000 , 2.000000, 0}
+			{6.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 0.000000}</orientation>
+		<position>{-3.000000 , -3.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+	<!-- pared 18 -->
+	<face>
+		<vertex>
+			{0.000000 , 0.000000, 0}
+			{0.000000 , 2.000000, 0}
+			{6.000000 , 2.000000, 0}
+			{6.000000 , 0.000000, 0}
+		</vertex>
+		<orientation>{1.570796 , 0.000000, 0.000000}</orientation>
+		<position>{-3.000000 , -2.000000, 0}</position>
+		<colour r="0.2" g="0.2" b="0.8"/>
+	</face>
+</FaceSetPart>
+
+
+<!-- definición de un robot Pioner3at , posicion y orientación inicial-->
+    <Pioneer3ATSim name="Marvin">
+      <orientation>	{0,0,0} </orientation>
+      <position>	{0,0,0}	</position>
+    </Pioneer3ATSim>
+<!-- definición de un laser unido al robot , posicion y orientación relativa-->	
+    <LMS100Sim name="LMS100" linkTo="$Marvin$">
+      <position>	{0.1,0,0.4} </position>
+      <colour r="0" g="1" b="0"/>
+    </LMS100Sim>
+<!-- definición de 3 ultrasonidos frontales unidos al robot , posicion y orientación relativa-->		
+    <UltrasonicSensor name = "uc0" linkTo="$Marvin$">
+      <orientation>	{0,-0.1,0}	</orientation>
+      <position>	{0.2,0,0.2}	</position>
+      <colour r="0" g="1" b="0"/>
+    </UltrasonicSensor>
+	
+    <UltrasonicSensor name="ul1" linkTo="$Marvin$">
+      <orientation>	{0,-0.1,0.7}    </orientation>
+      <position>	{0.18,0.11,0.2}	</position>
+      <colour r="0" g="1" b="0"/>
+    </UltrasonicSensor>
+	
+    <UltrasonicSensor name="ur1" linkTo="$Marvin$">
+      <orientation>	{0,-0.1,-0.7}    </orientation>
+      <position>	{0.18,-0.11,0.2} </position>
+      <colour r="0" g="1" b="0"/>
+    </UltrasonicSensor>
+<!-- definición de balizas-->
+	<!-- baliza 1-->
+	<LandMark  name ="LM1" mark_id="1">
+		  <position> {-7.9,7.9,0.4}	</position>
+	</LandMark>
+	<!-- baliza 2-->	
+	<LandMark  name = "LM2" mark_id="2">
+		  <position> {-7.9,0,0.4} </position>
+	</LandMark>
+	<!-- baliza 3-->	
+	<LandMark  name = "LM3" mark_id="3">
+		  <position> {-7.9,-6.9,0.4} </position>
+	</LandMark>
+	<!-- baliza 4-->	
+	<LandMark  name = "LM4" mark_id="4">
+		  <position> {-6.1,6.1,0.4} </position>
+	</LandMark>
+	<!-- baliza 5-->	
+	<LandMark  name = "LM5" mark_id="5">
+		  <position> {-6.1,0,0.4} </position>
+	</LandMark>
+	<!-- baliza 6-->	
+	<LandMark  name = "LM6" mark_id="6">
+		  <position> {-6.1,-5.1,0.4} </position>
+	</LandMark>
+	<!-- baliza 7-->	
+	<LandMark  name = "LM7" mark_id="7">
+		  <position> {-5.9,5.9,0.4} </position>
+	</LandMark>
+	<!-- baliza 8-->	
+	<LandMark  name = "LM8" mark_id="8">
+		  <position> {-5.9,0,0.4} </position>
+	</LandMark>
+	<!-- baliza 9-->	
+	<LandMark  name = "LM9" mark_id="9">
+		  <position> {-5.9,-4.9,0.4} </position>
+	</LandMark>
+	<!-- baliza 10-->	
+	<LandMark  name = "LM10" mark_id="10">
+		  <position> {-5.1,4.1,0.4} </position>
+	</LandMark>
+	<!-- baliza 11-->	
+	<LandMark  name = "LM11" mark_id="11">
+		  <position> {-4.9,0.1,0.4} </position>
+	</LandMark>
+	<!-- baliza 12-->	
+	<LandMark  name = "LM12" mark_id="12">
+		  <position> {-3.1,-1.9,0.4} </position>
+	</LandMark>
+	<!-- baliza 13-->	
+	<LandMark  name = "LM13" mark_id="13">
+		  <position> {-3.1,-3.1,0.4} </position>
+	</LandMark>
+	<!-- baliza 14-->	
+	<LandMark  name = "LM14" mark_id="14">
+		  <position> {-1.1,4,0.4} </position>
+	</LandMark>
+	<!-- baliza 15-->	
+	<LandMark  name = "LM15" mark_id="15">
+		  <position> {-1.1,0.1,0.4} </position>
+	</LandMark>
+	<!-- baliza 16-->	
+	<LandMark  name = "LM16" mark_id="16">
+		  <position> {-0.9,-0.1,0.4} </position>
+	</LandMark>
+	<!-- baliza 17-->	
+	<LandMark  name = "LM17" mark_id="17">
+		  <position> {-1.1,-5,0.4} </position>
+	</LandMark>
+	<!-- baliza 18-->	
+	<LandMark  name = "LM18" mark_id="18">
+		  <position> {-1.1,-6.9,0.4} </position>
+	</LandMark>
+	<!-- baliza 19-->	
+	<LandMark  name = "LM19" mark_id="19">
+		  <position> {0,7.9,0.4} </position>
+	</LandMark>
+	<!-- baliza 20-->	
+	<LandMark  name = "LM20" mark_id="20">
+		  <position> {0,6.1,0.4} </position>
+	</LandMark>
+	<!-- baliza 21-->	
+	<LandMark  name = "LM21" mark_id="21">
+		  <position> {0,5.9,0.4} </position>
+	</LandMark>
+	<!-- baliza 22-->	
+	<LandMark  name = "LM22" mark_id="22">
+		  <position> {0.9,-0.1,0.4} </position>
+	</LandMark>	
+	<!-- baliza 23-->	
+	<LandMark  name = "LM23" mark_id="23">
+		  <position> {1.1,0.1,0.4} </position>
+	</LandMark>	
+	<!-- baliza 24-->	
+	<LandMark  name = "LM24" mark_id="24">
+		  <position> {1.9,4,0.4} </position>
+	</LandMark>	
+	<!-- baliza 25-->	
+	<LandMark  name = "LM25" mark_id="25">
+		  <position> {3.1,-1.9,0.4} </position>
+	</LandMark>	
+	<!-- baliza 26-->	
+	<LandMark  name = "LM26" mark_id="26">
+		  <position> {3.1,-3.1,0.4} </position>
+	</LandMark>	
+	<!-- baliza 27-->	
+	<LandMark  name = "LM27" mark_id="27">
+		  <position> {5.1,6,0.4} </position>
+	</LandMark>	
+	<!-- baliza 28-->	
+	<LandMark  name = "LM28" mark_id="28">
+		  <position> {4.9,0.1,0.4} </position>
+	</LandMark>	
+	<!-- baliza 29-->	
+	<LandMark  name = "LM29" mark_id="29">
+		  <position> {5.1,0,0.4} </position>
+	</LandMark>	
+	<!-- baliza 30-->	
+	<LandMark  name = "LM30" mark_id="30">
+		  <position> {4.9,-4.9,0.4} </position>
+	</LandMark>	
+	<!-- baliza 31-->	
+	<LandMark  name = "LM31" mark_id="31">
+		  <position> {5.1,-5.1,0.4} </position>
+	</LandMark>	
+	<!-- baliza 32-->	
+	<LandMark  name = "LM32" mark_id="32">
+		  <position> {6.9,7.9,0.4} </position>
+	</LandMark>	
+	<!-- baliza 33-->	
+	<LandMark  name = "LM33" mark_id="33">
+		  <position> {6.9,0,0.4} </position>
+	</LandMark>	
+	<!-- baliza 34-->	
+	<LandMark  name = "LM34" mark_id="34">
+		  <position> {6.9,-6.9,0.4} </position>
+	</LandMark>
+  </World>
+</root>
